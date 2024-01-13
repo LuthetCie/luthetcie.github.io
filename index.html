@@ -2,38 +2,154 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Cours de musique orientale</title>
-    <link rel="stylesheet" type="text/css" href="test_alex.css">
+    <title>Cours de musique orientale - Luthetcie</title>
+    <link rel="stylesheet" type="text/css" href="header.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        #objectives {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0px 20px;
+            /* center the tiles */
+        }
+        .objective {
+            font-size: 24px;
+            line-height: 1.7;
+            font-weight: 300;
+            padding: 15px;
+            display: inline-block;
+            max-width: 32%;
+            background: #e9f5ff;
+            border: 1px solid #e0e0e0;
+            box-sizing: border-box;
+            margin: 10px 0px;
+            
+        }
+        .objective span {
+            font-weight: 900;
+            color: #040270;
+            padding-right: 10px;
+            font-size: 32px;
+        }
+    </style>
+
 </head>
 <body>
-    <h1>Cours de musique orientale</h1>
-    <img src="logo.jpeg" id="logo" />
-    <p>A partir de février 2024, les cours et répétitions auront lieu les mercredis de 20h00 à 22h00 (hors périodes de vacances scolaires) à la Maison des pratiques artistiques amateurs/Broussais, 100 rue Didot, 75014 Paris.</p>
 
-    <p>14 séances sont prévues.</p>
+    <!-- Header -->
+    <div id="header">
+        <div class="center">
+            <a href="/">
+                <img src="logo.jpeg" alt="Luthetcie" id="logo">
+                <div id="name">
+                    Luthetcie
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="menu">
+        <div class="center">
+            <a href="index.html" class="active_menu_item">Accueil</a>
+            <a href="a_propos.html" class="">A Propos</a>
+            <a href="rejoindre.html" class="">Nous Rejoindre</a>
+            <a href="contact.html" class="">Contact</a>
+            <a href="actualites.html" class="">Actualités</a>
+        </div>
+    </div>
 
-    <p>Chaque participant est libre de participer ou non aux représentations dans les lieux publics.</p>
+    <!-- Header End -->
 
-    <p>Première séance d'essai gratuite, puis l’inscription est obligatoire.</p>
+    <div id="main_center">
+        <div class="section_title">Introduction</div>
 
-    <h2>Frais d'inscription</h2>
-
-    <table border="1">
-        <tr>
-            <th>Nombre de cours</th>
-            <th>Tarif standard</th>
-            <th>Tarif réduit pour les demandeurs d’emploi* et étudiants*</th>
-        </tr>
-        <tr>
-            <td>14 séances</td>
-            <td>200</td>
-            <td>110</td>
-        </tr>
-        </tr>
-    </table>
-    <p>*sur présentation d’un justificatif</p>
-    <p>** bénéficie du tarif réduit aux cours de base à la carte</p>
+        <p>Luthetcie est une communauté passionnée de chant oriental, basée à Paris, qui vous invite à explorer la richesse de cette tradition musicale captivante. À partir de février 2024, nous vous accueillerons les mardis de 19h00 à 22h00 à la Maison des pratiques artistiques amateurs/Broussais, située au 100 rue Didot, 75014 Paris. Avec 14 séances prévues, notre programme offre une expérience complète pour les amateurs de chant oriental.</p>
     
+        <p>Luthetcie a débuté comme un cours de musique orientale à l'INALCO ouvert au public (Tarab INALCO) en septembre 2018, mais malheureusement, il a été interrompu en juin 2022. Nous sommes déterminés à continuer à partager notre passion pour le chant oriental avec la communauté et à créer des expériences musicales mémorables pour tous ceux qui nous rejoignent. Rejoignez-nous dans cette aventure musicale unique à Paris avec Luthetcie !</p>
+    
+        <p>Nos cours sont divisés en deux parties : de 19h00 à 20h30, nous vous enseignerons les bases et les techniques vocales du chant oriental. Ensuite, de 20h30 à 22h00, nous proposons un cours avancé, avec un projet de concert prévu à la fin du cycle. Chez Luthetcie, nous encourageons la liberté artistique, laissant à chaque participant le choix de participer ou non aux représentations publiques.</p>
+    
+        <p>La première séance d'essai est gratuite, donc n'hésitez pas a venir découvrir notre communauté. La division du cours en deux parties &mdash; bases et cours avancé &mdash; vous permettront de trouver votre place, que vous soyez débutant ou chanteur expérimenté. Nous vous invitons à nous rejoindre pour une expérience musicale unique à Paris !</p>
+    
+        <!-- <p>A partir de février 2024, les cours et répétitions auront lieu les mercredis de 20h00 à 22h00 (hors périodes de vacances scolaires) à la Maison des pratiques artistiques amateurs/Broussais, 100 rue Didot, 75014 Paris.</p> -->
+    
+        <!-- <p>14 séances sont prévues.</p>
+    
+        <p>Chaque participant est libre de participer ou non aux représentations dans les lieux publics.</p>
+    
+        <p>Première séance d'essai gratuite, puis l'inscription est obligatoire.</p> -->
+    
+        <div class="section_title">Objectifs</div>
+
+            <!-- Objectifs: juste une idée, ils peuvent être retirés/modifiés -->
+
+        <p>Six raisons pour nous rejoindre</p>
+
+        <div class="objective">
+            <span>1.</span> Faire vivre la musique orientale à Paris; partager notre passion pour le chant oriental avec la communauté
+        </div>
+        <div class="objective">
+            <span>2.</span> Apprendre les bases du chant oriental aux débutants; perfectionner les techniques vocales des chanteurs expérimentés
+        </div>
+        <div class="objective">
+            <span>3.</span> Créer une communauté de passionnés de chant oriental à Paris, pour inciter la créativité et l'innovation
+        </div>
+        <div class="objective">
+            <span>4.</span> Développer des partenariats avec des institutions culturelles et des artistes pour promouvoir la musique orientale
+        </div>
+        <div class="objective">
+            <span>5.</span> Organiser des concerts et des événements pour partager notre passion avec le public
+        </div>
+        <div class="objective">
+            <span>6.</span> ...            
+        </div>
+
+        <!-- <div class="section_title">Frais d'inscription</div>
+    
+        <table border="1">
+            <tr>
+                <th>Nombre de cours</th>
+                <th>Tarif standard</th>
+                <th>Tarif réduit pour les demandeurs d'emploi* et étudiants*</th>
+            </tr>
+            <tr>
+                <td>14 séances</td>
+                <td>200</td>
+                <td>110</td>
+            </tr>
+            </tr>
+        </table>
+        <p>*sur présentation d'un justificatif</p>
+        <p>** bénéficie du tarif réduit aux cours de base à la carte</p>
+         -->
+    </div>
+
+
+    <!-- Footer Start -->
+
+    <div id="footer">
+        <div class="footer_col">
+            <div class="footer_title">A Propos</div>
+            <div class="footer_link"><a href="a_propos.html">A Propos</a></div>
+            <!-- Nous Rejoindre -->
+            <div class="footer_link"><a href="rejoindre.html">Nous Rejoindre</a></div>
+            <!-- Contact -->
+            <div class="footer_link"><a href="contact.html">Contact</a></div>
+            <!-- Actualités -->
+            <div class="footer_link"><a href="actualites.html">Actualités</a></div>
+
+        </div>
+        <div class="footer_col">
+            <div class="footer_title">Resources</div>
+            <!-- Adresse a créer potentiellement -->
+
+            <div class="footer_link"><a href="mailto:luthetcie_contact@gmail.com">Contact</a></div>
+            <div class="footer_link"><a href="" target="_new">Facebook</a></div>
+            <div class="footer_link"><a href="" target="_new">Instagram</a></div>
+    </div>
+
+    <!-- Footer End -->
+
 </body>
 </html>
