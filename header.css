@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,400&display=swap');
+body {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 28px;
+    line-height: 1.7;
+    font-weight: 300;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#header {
+    background: white;
+    height: 140px;
+}
+#full_width {
+    width: 100%;
+    text-align: center;
+    background-color: #e5f5ff;
+}
+#full_width_image {
+    width: 1200px;
+    max-width: 100%;
+}
+#full_width_image2 {
+    width: 100%;
+}
+
+.center {
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+#logo {
+    height: 120px;
+    padding: 10px 0px;
+    margin-left: 20px;
+    float: left;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+#name {
+    float: left;
+    font-size: 40px;
+    line-height: 140px;
+    padding-left: 20px;
+}
+#name::first-letter {
+    font-weight: 900;
+    color: #040270;
+}
+#menu {
+    background: #f5f5f5;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0px 1px 10px #e0e0e0;
+    text-align: center;
+}
+#menu a {
+    padding: 0px 20px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 24px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+}
+#menu a:hover {
+    color: #040270;
+}
+.active_menu_item {
+    text-decoration: underline !important;
+    color: black !important;
+}
+#main_center {
+    /* width: 1000px; */
+    max-width: 100%;
+    margin: 0 150px;
+    margin-bottom: 100px;
+}
+.section_title {
+    font-size: 40px;
+    padding: 40px 0px 10px 0px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.section_sub_title {
+    font-size: 30px;
+    padding: 10px 0px 20px 20px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+}
+/* If on mobile device, #menu height should be 120px */
+@media only screen and (max-width: 900px) {
+    body {
+        font-size: 24px;
+    }
+    #menu a {
+        padding: 0px 10px;
+        font-size: 20px;
+    }
+    #main_center {
+        margin: 0px 20px;
+    }
+}
+
+
+
+/* Footer */
+
+#footer {
+    background: #e5f5ff;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    border-top: 1px solid #e0e0e0;
+}
+.footer_col {
+    display: inline-block;
+    width: 300px;
+    max-width: 50%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+#footer a {
+    color: #040270;
+    text-decoration: none;
+    font-size: 18px;
+}
