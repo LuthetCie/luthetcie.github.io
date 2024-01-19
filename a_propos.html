@@ -10,14 +10,21 @@
         .person_photo {
             padding: 40px;
             max-width: 90%;
-            
+        }
+        .youtube_player {
+            width: 700px;
+            height: 400px;
         }
         /* if mobile device, then photo should take 90% of width and be centered */
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 800px) {
             .person_photo {
                 padding: 0px;
                 max-width: 90%;
                 margin: auto;
+            }
+            .youtube_player {
+                width: 90%;
+                height: 300px;
             }
         }
     </style>
@@ -69,9 +76,21 @@
                 <li>Ce même Concert rediffusé en live par RFI</li>
                 <li>Fête de la Musique 2028 à l'iReMMO: <a href="https://iremmo.org/rendez-vous/fete-de-musique-concert-de-lassociation-al-wissal/" target="_blank">https://iremmo.org/rendez-vous/fete-de-musique-concert-de-lassociation-al-wissal/</a></li>
                 <li>Concerts à l'INALCO 2018-2019-2021-2022,</li>
-                <li>Projet Mayla-Paris durant le COVID en 2020: <a href="https://www.youtube.com/watch?v=cpKHGFkdGLc" target="_blank">https://www.youtube.com/watch?v=cpKHGFkdGLc</a></li>
+                <li>Projet Mayla-Paris durant le COVID en 2020: 
+                    <!-- <a href="https://www.youtube.com/watch?v=cpKHGFkdGLc" target="_blank">https://www.youtube.com/watch?v=cpKHGFkdGLc</a> -->
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/cpKHGFkdGLc" title="YouTube video player" class="youtube_player"></iframe>
+                    </div>
+                    
+                </li>
                 <li>Fête de la Musique 2022 à l'Atelier des artistes en exil,</li>
-                <li>Rediffusé dans un reportage en arabe sur la Chaîne Syria TV: <a href="https://youtu.be/57MPACRZ1Tw?si=OmYBt0Is-tZN1l-Z" target="_blank">https://youtu.be/57MPACRZ1Tw?si=OmYBt0Is-tZN1l-Z</a></li>
+                <li>Rediffusé dans un reportage en arabe sur la Chaîne Syria TV:
+                    <!-- <a href="https://youtu.be/57MPACRZ1Tw?si=OmYBt0Is-tZN1l-Z" target="_blank">https://youtu.be/57MPACRZ1Tw?si=OmYBt0Is-tZN1l-Z</a> -->
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/57MPACRZ1Tw" title="YouTube video player" class="youtube_player"></iframe>
+                    </div>
+                    
+                </li>
             </ul>
         </p>
         
