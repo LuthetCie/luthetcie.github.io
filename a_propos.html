@@ -9,6 +9,16 @@
     <style>
         .person_photo {
             padding: 40px;
+            max-width: 90%;
+            
+        }
+        /* if mobile device, then photo should take 90% of width and be centered */
+        @media only screen and (max-width: 600px) {
+            .person_photo {
+                padding: 0px;
+                max-width: 90%;
+                margin: auto;
+            }
         }
     </style>
 
@@ -72,9 +82,6 @@
         <p>
             Cette aventure nous a terriblement manqué et nous nous sommes mis en tête de recommencer à partager notre passion pour le chant oriental et à créer des expériences musicales mémorables pour tous ceux qui souhaitent nous rejoindre.
         </p>
-        
-        
-        
         
         <p>Deuxième couplet:</p>
         
