@@ -6,8 +6,27 @@
     <link rel="stylesheet" type="text/css" href="header.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-
+     <style>
+        .person_photo {
+            padding: 40px;
+            max-width: 90%;
+        }
+        .youtube_player {
+            width: 700px;
+            height: 400px;
+        }
+        /* if mobile device, then photo should take 90% of width and be centered */
+        @media only screen and (max-width: 800px) {
+            .person_photo {
+                padding: 0px;
+                max-width: 90%;
+                margin: auto;
+            }
+            .youtube_player {
+                width: 90%;
+                height: 300px;
+            }
+        }
     </style>
 
 </head>
